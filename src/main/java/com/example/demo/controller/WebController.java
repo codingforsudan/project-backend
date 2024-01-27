@@ -14,7 +14,7 @@ public class WebController {
 	@GetMapping("/stores")
 	public String sayHello() {
 		
-		return "Hello from Spring Boot";
+		return "Hello from stores";
 	}
 	
 	@GetMapping("/stores/doors")
